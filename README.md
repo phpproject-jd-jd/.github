@@ -28,11 +28,12 @@ Ce projet est une application To-Do List développée en PHP avec une architectu
 
 ### Instructions d'exécution
 
-- Clonez le projet dans le répertoire de votre serveur web local.     
--  Configurez la base de données dans le fichier `config.php`.        
-- Assurez-vous que le serveur web est démarré.        
+- Clonez le projet dans le répertoire de votre serveur web local.
+    - Saisir "`git clone https://github.com/phpproject-jd-jd/.github`" dans fenêtre cmd ouverte depuis le dossier dans lequel vous voulez télécharger le projet
+-  Configurez la base de données dans le fichier `config.php`. (expliqué plus tard).
+- Assurez-vous que le serveur web est démarré.
+    - Utilisez un serveur web local comme XAMPP, WampServer ou MAMP pour exécuter l'application.        
 - Accédez à l'URL correspondant à votre fichier `index.php` dans un navigateur.       
-- Utilisez un serveur web local comme XAMPP, WampServer ou MAMP pour exécuter l'application.
 
 ## Aide à la configuration:
 
