@@ -1,8 +1,40 @@
-# Projet To-Do List en PHP
+# To-Do List
 
 Ce projet est une application To-Do List développée en PHP avec une architecture MVC. Il permet de gérer une liste de tâches, les afficher, les créer, les mettre à jour et les supprimer.
 
+## Structure du Projet
+
+```
+- /todo-list
+  - /app
+    - /controllers
+      - TodoController.php
+    - /models
+      - TodoModel.php
+    - /views
+      - todo-list.php
+      - todo-details.php
+      - create-todo.php
+    - config.php
+  - /public
+    - index.php
+    - router.php
+    - /css
+      - style.css
+```
+
+
 ## Configuration
+
+### Instructions d'exécution
+
+- Clonez le projet dans le répertoire de votre serveur web local.     
+-  Configurez la base de données dans le fichier `config.php`.        
+- Assurez-vous que le serveur web est démarré.        
+- Accédez à l'URL correspondant à votre fichier `index.php` dans un navigateur.       
+- Utilisez un serveur web local comme XAMPP, WampServer ou MAMP pour exécuter l'application.
+
+## Aide à la configuration:
 
 ### Base de données
 
@@ -29,34 +61,6 @@ Entrez un nom pour la connexion dans le champ "Connection Name".
 - Cliquez sur le bouton "Test Connection" pour vérifier que les informations de connexion sont correctes.
 
 - Dans la fenêtre principale, double-cliquez sur la connexion que vous venez de créer pour vous connecter à la base de données.
-
-### Instructions d'exécution
-
-- Clonez le projet dans le répertoire de votre serveur web local.
-- Configurez la base de données dans le fichier `config.php`.
-- Assurez-vous que le serveur web est démarré.
-- Accédez à l'URL correspondant à votre fichier `index.php` dans un navigateur.
-
-### Structure du Projet
-
-```
-- /todo-list
-  - /app
-    - /controllers
-      - TodoController.php
-    - /models
-      - TodoModel.php
-    - /views
-      - todo-list.php
-      - todo-details.php
-      - create-todo.php
-    - config.php
-  - /public
-    - index.php
-    - router.php
-    - /css
-      - style.css
-```
 
 ## Fonctionnalités
 
