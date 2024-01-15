@@ -11,10 +11,10 @@ Informations de connection à la base de données:
 Définir les informations de connexion dans le fichier `config.php`.
 
 ```php
-define('DB_HOST', 'jd');
-define('DB_NAME', 'abc');
-define('DB_USER', 'aa');
-define('DB_PASSWORD', 'bb');
+define('DB_HOST', '51.158.59.186:14301');
+define('DB_NAME', 'dbJD');
+define('DB_USER', 'phppex');
+define('DB_PASSWORD', 'Supermotdepasse!42a');
 ```
 
 - Télécharger "MySQL workbench"   
